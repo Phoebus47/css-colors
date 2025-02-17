@@ -1,1 +1,24 @@
-/* Start coding here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+}
+
+.message-card {
+    width: 50%;
+    height:fit-content;
+    text-align: center;
+    background-color:hsla(0, 50%, 100%, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+}
