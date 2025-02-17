@@ -1,1 +1,35 @@
 /* Start coding here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(50deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: hsla(0, 50%, 100%, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 470px;    
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
